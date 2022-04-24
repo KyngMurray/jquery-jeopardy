@@ -1,0 +1,101 @@
+* {
+    padding: 5px;
+    margin: 5px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'URW Chancery L', cursive;
+    color: rgb(3, 3, 87);
+    text-shadow: 2px 2px aqua;
+    height: 100px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+#head {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+#one, #two, #four, #six, #eight {
+    display: flex;
+    justify-content: center;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(3, 3, 87);
+    color: black;
+    background-color: rgb(8, 123, 177);
+    font-size: large;
+    font-weight: 500;
+    font-family: 'URW Chancery L', cursive;
+}
+
+.titles:hover{
+    background-color: aqua;
+    color: rgb(2, 2, 2);
+    border: 5px solid darkblue;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Apple Chancery', cursive;
+    color: rgb(8, 123, 177);;
+    font-size: x-large;
+    font-weight: 1000;
+    text-shadow: 1px 1px rgb(3, 3, 87);
+}
+
+#form {
+    display: flex;
+}
+
+.bottom {
+    margin-right: 10px;
+}
+
+#answer {
+    width: 500px;
+    border: 2px solid rgb(3, 3, 87);
+}
+
+#answer:focus {
+    background-color: rgb(8, 123, 177);
+    color:rgb(1, 7, 10);
+    border: 3px double black;
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'URW Chancery L', cursive;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 123, 177);
+    width: 100px;
+    color: black;
+    border: 2px solid rgb(3, 3, 87);
+    font-weight: 500;
+    border-radius: 5px;
+}
